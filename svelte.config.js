@@ -19,9 +19,9 @@ const config = {
       precompress: false,
       strict: true,
     }),
-  },
-  paths: {
-    base: dev ? "" : basePath,
+    paths: {
+      base: dev ? "" : basePath,
+    },
   },
 };
 
